@@ -12,30 +12,30 @@ function procesoComprar(productosPokemonComprados = [], nombreCliente = null) {
     { nombre: "Pokémon | Caja Élite de Entrenador Chilling Reign", precio: 35000 },
   ];
 
-  const tcgpokemon_boosters = [
-    { nombre: "Pokémon | Sobre Hearthgold Soulsilver", precio: 5000 },
-    { nombre: "Pokémon | Sobre Paldea Evolved", precio: 5000 },
-    { nombre: "Pokémon | Sobre VSTAR Universe", precio: 5000 },
-    { nombre: "Pokémon | Sobre Espada Y Escudo Darkness Ablaze", precio: 5000 },
-    { nombre: "Pokémon | Sobre Violet ex ", precio: 5000 },
-    { nombre: "Pokémon | Sobre Base Set 1 Edición 1999", precio: 5000 },
-    { nombre: "Pokémon | Sobre Hidden Fates", precio: 5000 },
-    { nombre: "Pokémon | Sobre Violet ex", precio: 5000 },
-    { nombre: "Pokémon | Sobre Diamante y Perla Despertar de las Leyendas", precio: 5000 },
-    { nombre: "Pokémon | Sobre Evoluciones en Paldea", precio: 5000 }
-  ];
-
   const tcgpokemon_cardsets = [
-    { nombre: "Pokémon | Caja 30 Sobres Eevee Heroes", precio: 5000},
-    { nombre: "Pokémon | Caja 24 Sobres Soy y Luna", precio: 5000 },
-    { nombre: "Pokémon | Caja 36 Sobre Tempestad Plateada", precio: 5000 },
-    { nombre: "Pokémon | Caja 36 Sobres Resplandor Astral", precio: 5000 },
-    { nombre: "Pokémon | Caja 36 Sobres Fusion Strike", precio: 5000 },
-    { nombre: "Pokémon | Caja 18 Sobres Darkness Ablaze ", precio: 5000 },
-    { nombre: "Pokémon | Caja 18 Evoluciones en Paldea", precio: 5000 },
-    { nombre: "Pokémon | Caja 20 Sobres 151 2023",precio: 5000 },
-    { nombre: "Pokémon | Caja 36 Sobres Battle Styles", precio: 5000 },
-    { nombre: "Pokémon | Caja 36 Llamas Obsidiana", precio: 5000 },
+    { nombre: "Pokémon | Caja Celebraciones Dark Sylveon", precio: 27000 },
+    { nombre: "Pokémon | Colección Mimikyu ex", precio: 13000 },
+    { nombre: "Pokémon | Caja Paldea Sprigatito / Fuecoco / Quaxly", precio: 16000 },
+    { nombre: "Pokémon | Caja Alakazam ex 151 Pokémon", precio: 12000 },
+    { nombre: "Pokémon | Caja Zapdos ex 151 Pokémon", precio: 12000 },
+    { nombre: "Pokémon | Crown Zenith Morpeko V Unión Box", precio: 30000 },
+    { nombre: "Pokémon | Caja Infernape V Castellano", precio: 16000 },
+    { nombre: "Pokémon | Morpeko V-Union Box Special Collection", precio: 17000 },
+    { nombre: "Pokémon | Caja Virizion V", precio: 12000 },
+    { nombre: "Pokémon | Mazos Mewtwo Go", precio: 10000 }
+  ];
+  
+  const tcgpokemon_boosters = [
+    { nombre: "Pokémon | Caja 30 Sobres Eevee Heroes", precio: 38000},
+    { nombre: "Pokémon | Caja 24 Sobres Soy y Luna", precio: 50000 },
+    { nombre: "Pokémon | Caja 36 Sobre Tempestad Plateada", precio: 83000 },
+    { nombre: "Pokémon | Caja 36 Sobres Resplandor Astral", precio: 83000 },
+    { nombre: "Pokémon | Caja 36 Sobres Fusion Strike", precio: 77000 },
+    { nombre: "Pokémon | Caja 18 Sobres Darkness Ablaze ", precio: 43000 },
+    { nombre: "Pokémon | Caja 18 Evoluciones en Paldea", precio: 43000 },
+    { nombre: "Pokémon | Caja 20 Sobres 151 2023",precio: 37000 },
+    { nombre: "Pokémon | Caja 36 Sobres Battle Styles", precio: 80000 },
+    { nombre: "Pokémon | Caja 36 Llamas Obsidiana", precio: 80000 },
   ];
 
   function menuUsuario() {
